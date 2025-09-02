@@ -1,6 +1,7 @@
-body {
-  font-family: "Roboto", Raleway, sans-serif;
-  color: #2e2f42;
+.body {
+  font-family: "Roboto", sans-serif, Raleway, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 ul {
@@ -26,17 +27,17 @@ button {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.header-logo-blue {
+.header-logo-black {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-menu-link {
@@ -50,7 +51,7 @@ button {
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .header-contacts-link {
@@ -64,12 +65,11 @@ button {
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .visually-hidden {
   position: absolute;
-  width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
@@ -102,11 +102,13 @@ button {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
 }
 
 .hero-button:hover,
 .hero-button:focus {
   color: #2e2f42;
+  background-color: #404bbf;
 }
 
 .features {
@@ -136,17 +138,18 @@ button {
 }
 
 .team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 
 .team-logo {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  /line-height: 111%;
+  line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-list {
@@ -187,6 +190,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -224,17 +228,17 @@ button {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
-.footer-logo-blue {
+.footer-logo-black {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-description {
